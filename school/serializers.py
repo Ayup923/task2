@@ -1,8 +1,8 @@
 from rest_framework.serializers import ModelSerializer
-from .models import Product
+from .models import Student
 
 
 class ProductSerializer(ModelSerializer):
     class Meta:
-        model = Product
+        model = Student
         fields = '__all__'
